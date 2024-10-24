@@ -1,0 +1,74 @@
+@use "../../../../public/scss/_query-mixin.scss" as mixin;
+
+:host {
+  grid-column: 9 / -1;
+
+  @include mixin.respond(tablet) {
+    grid-column: 1 / -1;
+  }
+}
+
+.cart {
+  background: var(--white);
+  border-radius: 1.2rem;
+  padding: var(--spacing-300);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-300);
+
+  &__empty {
+    padding-block: var(--spacing-200);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-200);
+    color: var(--rose-500);
+  }
+
+  &__items {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-200);
+
+    li:not(:last-child) {
+      padding-bottom: var(--spacing-200);
+      border-bottom: 1px solid var(--rose-100);
+    }
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__item-info {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-100);
+  }
+
+  &__item-stats {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-100);
+  }
+
+  &__total {
+    padding-top: var(--spacing-300);
+    border-top: 1px solid var(--rose-100);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__delivery {
+    padding: var(--spacing-200);
+    background: var(--rose-50);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-100);
+    border-radius: 8px;
+  }
+}

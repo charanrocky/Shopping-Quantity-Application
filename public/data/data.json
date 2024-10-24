@@ -1,0 +1,73 @@
+[
+  {
+    "image": {
+      "thumbnail": "images/iphone15.png",
+      "mobile": "images/iphone15.png",
+      "tablet": "images/iphone15.png",
+      "desktop": "images/iphone15.png"
+    },
+    "name": "Apple iPhone 15",
+      "description": "The fifteenth generation of the iPhone.",
+      "price": 999,
+      "listPrice": 1099,
+      "stock": 20,
+      "quantity": 1
+    
+  },
+  {
+    "image": {
+      "thumbnail": "images/s24ultra.jpg",
+      "mobile": "images/s24ultra.jpg",
+      "tablet": "images/s24ultra.jpg",
+      "desktop": "images/s24ultra.jpg"
+    },
+    "name": "Samsung Galaxy S24",
+      "description": "The thirtieth generation of the Galaxy S series.",
+      "price": 899,
+      "listPrice": 999,
+      "stock": 10,
+      "quantity": 1
+  },
+  {
+    "image": {
+      "thumbnail": "images/pixel8.jpg",
+      "mobile": "images/pixel8.jpg",
+      "tablet": "images/pixel8.jpg",
+      "desktop": "images/pixel8.jpg"
+    },
+  "name": "Google Pixel 8",
+      "description": "The eighth generation of the Pixel series.",
+      "price": 799,
+      "listPrice": 899,
+      "stock": 15,
+      "quantity": 1
+  },
+  {
+    "image": {
+      "thumbnail": "images/oneplus12.jpg",
+      "mobile": "images/oneplus12.jpg",
+      "tablet": "images/oneplus12.jpg",
+      "desktop": "images/oneplus12.jpg"
+    },
+    "name": "OnePlus 12",
+      "description": "The twelfth generation of the OnePlus series.",
+      "price": 699,
+      "listPrice": 799,
+      "stock": 25,
+      "quantity": 1
+  },
+  {
+    "image": {
+      "thumbnail": "images/mi12.png",
+      "mobile": "images/mi12.png",
+      "tablet": "images/mi12.png",
+      "desktop": "images/mi12.png"
+    },
+    "name": "Xiaomi Mi 12",
+      "description": "The twelfth generation of the Mi series.",
+      "price": 599,
+      "listPrice": 699,
+      "stock": 30,
+      "quantity": 1
+  }
+]

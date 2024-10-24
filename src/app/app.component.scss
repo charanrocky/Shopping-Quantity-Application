@@ -1,0 +1,25 @@
+@use "../../public/scss/_query-mixin.scss" as mixin;
+
+:host {
+  min-height: 100vh;
+  padding-block: var(--spacing-1100);
+  background: var(--rose-50);
+
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(12, 7.2rem);
+  column-gap: var(--spacing-400);
+  position: relative;
+
+  @include mixin.respond(tablet) {
+    padding: var(--spacing-500);
+    grid-template-columns: repeat(8, 1fr);
+    gap: var(--spacing-400);
+  }
+
+  @include mixin.respond(phone) {
+    padding: var(--spacing-300);
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: var(--spacing-150);
+  }
+}

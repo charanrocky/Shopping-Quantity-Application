@@ -1,0 +1,31 @@
+:root {
+  /**** TYPOGRAPHY *****/
+  --ff-main: "Red Hat Text", sans-serif;
+  --fw-regular: 400;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  /**** COLORS *****/
+  --red-100: #c73b0f;
+  --red-200: #a02f0d;
+  --green: #1ea475;
+  --black: #000;
+  --white: #fff;
+  --rose-50: #fcf8f6;
+  --rose-100: #f5eeec;
+  --rose-300: #caafa7;
+  --rose-400: #ad8a85;
+  --rose-500: #87635a;
+  --rose-900: #260f08;
+  --bg-mask: rgba(0, 0, 0, .5);
+
+  /**** SPACING *****/
+  --spacing-50: .4rem;
+  --spacing-100: .8rem;
+  --spacing-150: 1.2rem;
+  --spacing-200: 1.6rem;
+  --spacing-300: 2.4rem;
+  --spacing-400: 3.2rem;
+  --spacing-500: 4rem;
+  --spacing-1100: 8.8rem;
+}

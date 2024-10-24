@@ -1,0 +1,27 @@
+@use "../../../../public/scss/_query-mixin.scss" as mixin;
+
+:host {
+  grid-column: 1 / span 8;
+
+  @include mixin.respond(tablet) {
+    grid-column: 1 / -1;
+  }
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-400);
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: var(--spacing-300);
+    row-gap: var(--spacing-400);
+
+    @include mixin.respond(phone) {
+      grid-template-columns: 1fr;
+      row-gap: var(--spacing-300);
+    }
+  }
+}

@@ -1,0 +1,68 @@
+:host {
+  &.btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-100);
+    font-family: inherit;
+    border: none;
+    border-radius: 999px;
+    outline: none;
+    cursor: pointer;
+    transition: all .4s;
+
+    &--primary {
+      padding: var(--spacing-200) var(--spacing-300);
+      background: var(--red-100);
+      color: var(--white);
+
+      &:hover,
+      &:focus {
+        background: var(--red-200);
+      }
+    }
+
+    &--secondary {
+      padding: var(--spacing-150);
+      color: inherit;
+      background: var(--white);
+      box-shadow: inset 0 0 0 1px var(--rose-400);
+
+      &:hover,
+      &:focus {
+        color: var(--red-100);
+        box-shadow: inset 0 0 0 1px var(--red-100);
+      }
+    }
+
+    &--icon {
+      width: 1.75rem;
+      height: 1.75rem;
+      border-radius: 50%;
+      background: transparent;
+
+      &--ops {
+        color: var(--white);
+        box-shadow: inset 0 0 0 1.25px var(--white);
+
+        &:hover,
+        &:focus {
+          color: var(--red-100);
+          background: var(--white);
+        }
+      }
+
+      &--remove {
+        color: var(--rose-400);
+        box-shadow: inset 0 0 0 1px var(--rose-400);
+
+        &:hover,
+        &:focus {
+          color: var(--rose-900);
+          box-shadow: inset 0 0 0 1px var(--rose-900);
+        }
+      }
+    }
+  }
+}
